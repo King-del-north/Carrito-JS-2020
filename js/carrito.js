@@ -149,7 +149,7 @@
         if (this.obtenerProductosLocalStorage().length === 0) {
             Swal.fire({
                 popup: 'swal2-hide',
-                type: 'info',  
+                type: 'error',  
                 title: 'Carrito sin productos!',
                 text: 'porfavor, agregar un producto!',
                 showConfirmer: false ,
